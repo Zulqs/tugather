@@ -38,7 +38,7 @@ function Nav() {
                             <a href='#'>Resource</a>
                         </ul>
                         <ul className='mx-2'>
-                            <a href="#" className='bg-white px-5 py-2 rounded-full font-bold text-zinc-600 hover:bg-zinc-400 hover:text-white hover:border-2'>
+                            <a href="#" className='bg-white px-5 py-2 rounded-full font-bold text-zinc-600 hover:bg-zinc-600 hover:text-white hover:-translate-y-2 hover:scale-110 transition ease-in-out delay-100 duration-500'>
                                 Masuk
                             </a>
                         </ul>

@@ -1,7 +1,7 @@
 import React from 'react'
 import BlogCard from './blogCard'
 
-const Content = () => {
+const Resource = () => {
     return (
         <div className='bg-zinc-100'>
             <div className='container mx-auto font-sans py-2'>
@@ -9,7 +9,7 @@ const Content = () => {
                     <p className='font-bold text-1xl text-sky-700 tracking-wider text-md'>RESOURCE</p>
                     <p className='my-2 font-bold text-3xl text-zinc-800'>Koleksi Materi Terbaru</p>
                 </div>
-                <div className='-mx-4 py-6 flex flex-wrap'>
+                <div className='xl:mx-20 lg:mx-3 md:mx-3 sm:mx-5 py-6 flex flex-wrap'>
                     <BlogCard
                         matkul="Dasar Jaringan Komputer, DJK"
                         CardTitle="Metode Subnetting VLSM"
@@ -34,4 +34,4 @@ const Content = () => {
     )
 }
 
-export default Content
+export default Resource

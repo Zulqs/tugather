@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const BlogCard = ({ image, matkul, CardTitle, CardDescription }: { image: string, matkul: string, CardTitle: string, CardDescription: string }) => {
     return (
@@ -6,7 +7,7 @@ const BlogCard = ({ image, matkul, CardTitle, CardDescription }: { image: string
             <div className="w-full px-4 md:w-1/2 lg:w-1/3 font-sans">
                 <div className="mb-10 w-full">
                     <div className="mb-8 overflow-hidden rounded">
-                    <img src={image} alt="" className="w-full" />
+                        <Image src={image} alt="" className="w-full" width={0} height={0}/>
                     </div>
                     <div>
                     {matkul && (
