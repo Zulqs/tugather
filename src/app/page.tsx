@@ -1,13 +1,13 @@
 import Nav from "@/components/nav";
 import Hero from "@/components/hero";
-import Content from "@/components/content";
+import Resource from "@/components/resource";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <Hero />
-      <Content />
+      <Resource />
     </>
   );
 }
